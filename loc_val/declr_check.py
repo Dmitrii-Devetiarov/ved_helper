@@ -22,7 +22,7 @@ OUT_DIR = PROJECT_ROOT / config["paths"]["out_dir"]
 
 DECLARATIONS_FILE = DATA_DIR / "declarations.jsonl"
 REGULATIONS_FILE = DATA_DIR / "regulations.jsonl"
-RESULTS_FILE = OUT_DIR / "results.csv"
+RESULTS_FILE = OUT_DIR / "predictions.csv"
 
 
 # ─── Утилиты чтения ─────────────────────────────────────────────────────────

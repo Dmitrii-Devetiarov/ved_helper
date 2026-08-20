@@ -21,7 +21,7 @@ OUT_DIR = PROJECT_ROOT / config["paths"]["out_dir"]
 VAL_OUT_DIR = PROJECT_ROOT / config["paths"]["val_out_dir"]
 
 DECLARATIONS_FILE = DATA_DIR / "declarations.jsonl"
-RESULTS_FILE = OUT_DIR / "results.csv"
+RESULTS_FILE = OUT_DIR / "predictions.csv"
 
 OUTPUT_CSV = VAL_OUT_DIR / "worst_declarations.csv"
 
