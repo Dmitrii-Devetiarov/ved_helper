@@ -1,0 +1,29 @@
+# config.yaml
+
+# Пути
+paths:
+  data_dir: "data"
+  val_out_dir: "val_out"
+  out_dir: "out"
+
+# Модели
+models:
+  embedding_model: "intfloat/multilingual-e5-small"
+  reranker_model: "BAAI/bge-reranker-v2-m3"
+  max_model_size_gb: 8
+
+# Поиск
+search:
+  bm25_top_n: 50
+  dense_top_n: 50
+  rrf_k: 60
+  candidates_top_n: 20
+
+# Реранкинг
+reranking:
+  batch_size: 16
+  max_length: 512
+
+# Вывод
+output:
+  top_n: 10

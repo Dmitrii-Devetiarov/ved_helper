@@ -1,0 +1,22 @@
+# Конфигурация
+PyYAML>=6.0.2
+
+# Работа с данными
+numpy>=1.26.4
+pandas>=2.2.2
+
+# Поиск и NLP
+sentence-transformers>=3.0.1
+torch>=2.3.1
+
+# Лемматизация
+pymystem3>=0.2.0
+
+# Машинное обучение / метрики расстояний
+scikit-learn>=1.5.1
+
+# Валидация (UMAP)
+umap-learn>=0.5.6
+
+# Визуализация (для loc_verification)
+matplotlib>=3.9.0
